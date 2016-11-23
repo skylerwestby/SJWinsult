@@ -300,6 +300,7 @@ a:hover {
 
 button#shuffle {
   margin-top: 2em;
+  padding: 0 2em;
 }
 
 .button,
