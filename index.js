@@ -15,7 +15,8 @@ var insults1 = [
   "straight",
   "narrow-minded",
   "deluded",
-  "marginalizing"
+  "marginalizing",
+  "ethno-centric",
 ];
 
 var insults2 = [
@@ -47,6 +48,7 @@ var insults3 = [
   "thin-privileged",
   "imperialistic",
   "nationalistic",
+  "anti-semitic",
 ];
 
 var insults4 = [
@@ -92,7 +94,7 @@ caps.onclick = function() {
   blurb.className += " " + "uppercase";
 
   if(capsclicked) {
-     blurb.className = "blurb";
+     blurb.className = "insult";
      caps.innerHTML = "RAGE CAPS";
    } else {
      caps.innerHTML = "SENTENCE CASE";
@@ -110,3 +112,11 @@ var tweet = document.getElementById("tweet");
 tweet.onclick = function() {
   window.open("https://twitter.com/share" + "?text=" + insult + "%0A" + " %23SJWinsult @skylerwestby",'','width=400,height=300')
 }
+
+// (function(d, s, id) {
+//   var js, fjs = d.getElementsByTagName(s)[0];
+//   if (d.getElementById(id)) return;
+//   js = d.createElement(s); js.id = id;
+//   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+//   fjs.parentNode.insertBefore(js, fjs);
+// }(document, 'script', 'facebook-jssdk'));
