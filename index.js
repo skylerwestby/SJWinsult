@@ -17,7 +17,8 @@ var insults1 = [
   "straight",
   "narrow-minded",
   "deluded",
-  "marginalizing"
+  "marginalizing",
+  "eurocentric"
 ];
 
 var insults2 = [
@@ -35,7 +36,8 @@ var insults2 = [
   "close-minded",
   "euro-centric",
   "ethno-centric",
-  "elitist"
+  "elitist",
+  "alt-right",
 ];
 
 var insults3 = [
@@ -54,7 +56,9 @@ var insults3 = [
   "nationalistic",
   "anti-semitic",
   "hate-mongering",
-  "victim-blaming"
+  "victim-blaming",
+  "man-splaining",
+  "putin-loving"
 ];
 
 var insults4 = [
@@ -67,21 +71,27 @@ var insults4 = [
   "prude",
   "zionist",
   "pig",
+  "Russian Hacker",
   "nazi",
-  "neo-con",
+  "Ceo-Confederate",
   "Hitler",
   "neo-nazi",
   "traditionalist",
   "subhuman",
   "rapist",
   "colonialist",
+  "white-supremacist",
   "sympathizer",
   "Nazi",
   "rape-apologist",
   "cracker",
+  "whitey",
   "white-devil",
   "WASP",
   "fear-monger",
+  "transphobe",
+  "islamophobe",
+  "nationalist"
 ]
 
 var rand1 = random(0, insults1.length - 1);
