@@ -23,6 +23,7 @@ var insults1 = [
 
 var insults2 = [
   "sexist",
+  "bigoted",
   "elitist",
   "oppressive",
   "ignorant",
