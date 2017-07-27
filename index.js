@@ -128,13 +128,7 @@ shuffle.onclick = function() {
 
 var tweet = document.getElementById("tweet");
 tweet.onclick = function() {
-  window.open("https://twitter.com/share" + "?text=" + insult + "%0A" + " %23SJWinsult @skylerwestby",'','width=400,height=300')
+  window.open("https://twitter.com/share" + "?text=" + insult + "%0A" + " %23SJWinsult",'','width=400,height=300')
 }
 
-// (function(d, s, id) {
-//   var js, fjs = d.getElementsByTagName(s)[0];
-//   if (d.getElementById(id)) return;
-//   js = d.createElement(s); js.id = id;
-//   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
-//   fjs.parentNode.insertBefore(js, fjs);
-// }(document, 'script', 'facebook-jssdk'));
+
