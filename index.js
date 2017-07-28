@@ -74,7 +74,7 @@ var insults4 = [
   "pig",
   "Russian Hacker",
   "nazi",
-  "Ceo-Confederate",
+  "Neo-Confederate",
   "Hitler",
   "neo-nazi",
   "traditionalist",
